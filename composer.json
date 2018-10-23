@@ -1,0 +1,19 @@
+{
+    "name": "tal/composer-test",
+    "description": "this is a test",
+    "authors": [
+        {
+            "name": "gedongdong",
+            "email": "gedongdong2010@163.com"
+        }
+    ],
+    "require": {
+    	"php": ">=7.0"
+    },
+    "autoload": {
+	    "psr-4": {
+	      "Animal\\Cat\\": "src/Animal/Cat",
+	      "Animal\\Dog\\": "src/Animal/Dog"
+	    }
+	  }
+}
