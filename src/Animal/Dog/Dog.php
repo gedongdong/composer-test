@@ -5,6 +5,6 @@ class Dog
 {
     public function desc()
     {
-        echo "this is a Dog1";
+        echo "this is a Dog2";
     }
 }

@@ -5,6 +5,6 @@ class Cat
 {
     public function desc()
     {
-        echo "this is a Cat1";
+        echo "this is a Cat2";
     }
 }
